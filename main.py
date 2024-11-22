@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
-import sklearn
 import pandas as pd
-from sklearn import svm
 import pickle
 
 model = pickle.load(open('loan_status_model.pkl', 'rb'))
